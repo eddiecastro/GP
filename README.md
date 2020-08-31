@@ -24,12 +24,6 @@ In `exercise/model.py` you will find the `SeniorityModel` class. You can train t
 1. Use a testing framework to assert that your save/load functions are working. Make sure that a set of predictions from the persisted model match that of the hydrated model.
 
 
-
-
-### **Disclaimer**:
-1. This code is developed with mac. Still testing on multiple OS environments has to be done.
-2. Documentation has to be updated slightly more. 
-
 ## Steps to Run:
 1. Clone the git repository: "git clone https://github.com/vgpprasad91/MLEng_Exercise.git"
 2. Do install the requirement dependencies
@@ -46,3 +40,7 @@ In `exercise/model.py` you will find the `SeniorityModel` class. You can train t
 ```curl -XGET localhost:9999/loaded_model_predictions```
 
 --contd
+
+### **Disclaimer**:
+1. This code is developed with mac. Still testing on multiple OS environments has to be done.
+2. Documentation has to be updated slightly more. 
