@@ -44,3 +44,10 @@ In `exercise/model.py` you will find the `SeniorityModel` class. You can train t
 ### **Disclaimer**:
 1. This code is developed with mac. Still testing on multiple OS environments has to be done.
 2. Documentation has to be updated slightly more. 
+
+
+** **FAQ:**
+
+1. How were the models serialized and de-serialized?
+
+    Parquet with Apache Arrow data type is the default used format with this ML model. More details on it can be read here:  https://github.com/vgpprasad91/MLEng_Exercise/wiki/Serialization-and-De-Serialization
