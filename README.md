@@ -29,23 +29,25 @@ https://github.com/vgpprasad91/MLEng_Exercise/blob/70f996ee0d9c29043f6f661378a74
 3. Implement a `save(filename)` class method which persists the information in the `SeniorityModel` to disk at the given location. The model should be saved in a language-agnostic format (i.e. don't use `pickle`) and contains all the information that is required to create a new instance of `SeniorityModel` from the saved data. Assume that someone could use this file to construct an equivalent model in another programming language, given documentation.
 
 Answer: 
-1. The codebase for this task can be found here:
+* The codebase for this task can be found here:
 https://github.com/vgpprasad91/MLEng_Exercise/blob/70f996ee0d9c29043f6f661378a74e467cbd9a6b/exercise/model.py#L154
-2. The serialization class codebase can be found here:
+* The serialization class codebase can be found here:
 https://github.com/vgpprasad91/MLEng_Exercise/blob/master/exercise/serialization/serialize_models.py
 
 4. Implement a `load(filename)` class method that loads a saved model (see above) from the given location on disk and initializes the instance of `SeniorityMethod` using the information in the file so that it can be used for predictions without fitting.
 
-Answer: The codebase for this task can be found here:
+Answer: 
+* The codebase for this task can be found here:
 https://github.com/vgpprasad91/MLEng_Exercise/blob/b3c08edd0e1eb888eeb8419754c0fd8c0178bbad/exercise/model.py#L167
-The deserialization of the models for loading can be found here:
+* The deserialization of the models for loading can be found here:
 https://github.com/vgpprasad91/MLEng_Exercise/blob/master/exercise/serialization/deserialize_models.py
 
 5. Use a testing framework to assert that your save/load functions are working. Make sure that a set of predictions from the persisted model match that of the hydrated model.
 
-Answer: The codebase for this task can be found here:
+Answer: 
+* The codebase for this task can be found here:
 https://github.com/vgpprasad91/MLEng_Exercise/blob/b3c08edd0e1eb888eeb8419754c0fd8c0178bbad/exercise/model.py#L197
-The test functionalities can be found here:
+* The test functionalities can be found here:
 https://github.com/vgpprasad91/MLEng_Exercise/blob/master/exercise/tests/mlruns_tests.py
 
 
