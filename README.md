@@ -46,7 +46,7 @@ In `exercise/model.py` you will find the `SeniorityModel` class. You can train t
 2. Documentation has to be updated slightly more. 
 
 
-** **FAQ:**
+### **FAQ:**
 
 1. How were the models serialized and de-serialized?
 
