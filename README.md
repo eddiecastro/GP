@@ -47,7 +47,8 @@ https://github.com/vgpprasad91/MLEng_Exercise/blob/master/exercise/serialization
 Answer: 
 * The codebase for this task can be found here:
 https://github.com/vgpprasad91/MLEng_Exercise/blob/b3c08edd0e1eb888eeb8419754c0fd8c0178bbad/exercise/model.py#L197
-* The test functionalities can be found here:
+* The test functionalities for the 
+* The test functionalities for the persisted vs hydrated model can be found here:
 https://github.com/vgpprasad91/MLEng_Exercise/blob/master/exercise/tests/mlruns_tests.py
 
 
@@ -78,3 +79,7 @@ https://github.com/vgpprasad91/MLEng_Exercise/blob/master/exercise/tests/mlruns_
 1. How were the models serialized and de-serialized?
 
     Parquet with Apache Arrow data type is the default used format with this ML model. More details on it can be read here:  https://github.com/vgpprasad91/MLEng_Exercise/wiki/Serialization-and-De-Serialization
+
+2. How the Machine Learning LifeCycle is managed?
+
+    The Machine Learning LifeCycle is managed through MLFLow. I primarily used MLFlow to monitor metrics and track these. https://github.com/vgpprasad91/MLEng_Exercise/wiki/Tracking-ML-LifeCycle
