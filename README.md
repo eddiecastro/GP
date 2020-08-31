@@ -23,7 +23,26 @@ In `exercise/model.py` you will find the `SeniorityModel` class. You can train t
 1. Implement a `load(filename)` class method that loads a saved model (see above) from the given location on disk and initializes the instance of `SeniorityMethod` using the information in the file so that it can be used for predictions without fitting.
 1. Use a testing framework to assert that your save/load functions are working. Make sure that a set of predictions from the persisted model match that of the hydrated model.
 
+
+
+
+### **Disclaimer**:
+1. This code is developed with mac. Still testing on multiple OS environments has to be done.
+2. Documentation has to be updated slightly more. 
+
 ## Steps to Run:
-1. Do install the requirement dependencies
+1. Clone the git repository: "git clone https://github.com/vgpprasad91/MLEng_Exercise.git"
+2. Do install the requirement dependencies
 ```pip3 install -r requirements.txt```
-2. 
+3. Build the docker compose by ```docker-compose up -d --build```
+4. Run ```python3 api.py```
+5. Run ```python3 app.py```
+6. Run ```get_salesloft_data.py```
+7. To get the hydrated model predictions
+```curl -XGET localhost:9999/hydrated_model_predictions```
+8. To get the latest online predictions
+```curl -XGET localhost:9999/latest_online_predictions```
+9. To get the persisted and loaded model predictions
+```curl -XGET localhost:9999/loaded_model_predictions```
+
+--contd
